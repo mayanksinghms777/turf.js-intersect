@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const turf = require('@turf/turf');
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(bodyParser.json());
@@ -50,5 +51,5 @@ app.post('/findIntersections', authenticate, (req, res) => {
 
 // Start the server
 app.listen(3000, () => {
-  console.log('Server listening on port 3000');
+    console.log(`server started on port ${PORT}`);
 });
