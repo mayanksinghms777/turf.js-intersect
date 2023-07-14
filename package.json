@@ -3,6 +3,25 @@
     "@turf/turf": "^6.5.0",
     "axios": "^1.4.0",
     "body-parser": "^1.20.2",
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "npm": "^9.8.0"
+  },
+  "name": "turfjs-intersect",
+  "description": "api will find which of the 50 lines with ids (L01 - L50) intersect with the linestring.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayanksinghms777/turf.js-intersect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayanksinghms777/turf.js-intersect/issues"
+  },
+  "homepage": "https://github.com/mayanksinghms777/turf.js-intersect#readme"
 }
